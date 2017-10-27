@@ -1,3 +1,21 @@
+/*----------------------------------------------------------
+ *                 HTL-Leonding / Klasse: 1AHITM
+ * ----------------------------------------------------------
+ * Übungsnr.:   11
+ * Übungstitel: Verfolgung
+ * Autoren:     Quirin Ecker
+ * Version:     1.0
+ * Datum:       27.10.2017
+ * ----------------------------------------------------------
+ * Kurzbeschreibung:
+ * Wndergruppen Verfolgung
+ *
+ * ----------------------------------------------------------
+ * Beschreibung der grundlegenden Lösungsidee:
+ * Durch Berechnungen ausrechnen wann sich dir Gruppen wieder treffen.
+ *
+ * ----------------------------------------------------------
+*/
 import java.util.Scanner;
 
 public class Quirin_Ecker_Verfolgung {
