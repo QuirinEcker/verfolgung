@@ -11,6 +11,8 @@ public class Quirin_Ecker_Verfolgung {
         double wiedersehen;
         double stunden;
         double minuten;
+        String ausgabe01;
+        String ausgabe02;
 
 
         System.out.print("Geschwindigkeit der Gruppe 1: ");
@@ -22,10 +24,17 @@ public class Quirin_Ecker_Verfolgung {
         System.out.print("Verspätung der Gruppe 2: ");
         verspaetung = scanner.nextDouble();
 
+        System.out.println();
 
+        wiedersehen = geschwindigkeit02 * verspaetung / (geschwindigkeit02 - geschwindigkeit01) / 60;
+        ausgabe01 = "Die beiden Gruppen sehen sich nach " + wiedersehen + " Stunden wieder.";
 
+        stunden = Math.floor(wiedersehen);
+        minuten = (wiedersehen - stunden) *  60;
+        ausgabe02 = "Das sind " + stunden + " Stunden und " + minuten +  " Minuten";
 
-
+        System.out.println(ausgabe01);
+        System.out.println(ausgabe02);
 
     }
 }
