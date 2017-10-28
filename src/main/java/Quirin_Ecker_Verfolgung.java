@@ -8,11 +8,11 @@
  * Datum:       27.10.2017
  * ----------------------------------------------------------
  * Kurzbeschreibung:
- * Wndergruppen Verfolgung
+ * Wandergruppen Verfolgung
  *
  * ----------------------------------------------------------
  * Beschreibung der grundlegenden Lösungsidee:
- * Durch Berechnungen ausrechnen wann sich dir Gruppen wieder treffen.
+ * Durch Berechnungen ausrechnen wann sich die Gruppen wieder treffen.
  *
  * ----------------------------------------------------------
 */
